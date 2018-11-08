@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Data Base</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Dalton Solutions</a>
+        </div>
+    </div>
+</nav>
+<div class="bg">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Employee Data Base</h1>
+        </div>
+
+    </div>
+</div>
+
+    <button type="submit" onclick="window.location.href='adddepartment.html'" class="btn btn-primary">ADD DEPARTMENT</button>
+    <button type="submit" onclick="window.location.href= 'addemployee.html'" class="btn btn-primary">ADD EMPLOYEE</button>
+    <button type="submit" onclick="getdepartments()" class="btn btn-primary">LIST DEPARTMENTS</button>
+
+<div id="list"></div>
+
+
+
+<script src="../js/json.js"></script>
+</body>
+</html>
