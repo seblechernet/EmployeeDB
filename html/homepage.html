@@ -21,7 +21,7 @@
 <div class="bg">
     <div class="container">
         <div class="jumbotron">
-            <h1>Employee Data Base</h1>
+            <h3>Employee Data Base</h3>
         </div>
 
     </div>
@@ -29,12 +29,13 @@
 
     <button type="submit" onclick="window.location.href='adddepartment.html'" class="btn btn-primary">ADD DEPARTMENT</button>
     <button type="submit" onclick="window.location.href= 'addemployee.html'" class="btn btn-primary">ADD EMPLOYEE</button>
-    <button type="submit" onclick="getdepartments()" class="btn btn-primary">LIST DEPARTMENTS</button>
+    <button id="listdep" type="submit" onclick="findDepartments()" class="btn btn-primary">LIST DEPARTMENTS</button>
 
 <div id="list"></div>
 
 
 
 <script src="../js/json.js"></script>
+<script src="../js/listdepartments.js"></script>
 </body>
 </html>

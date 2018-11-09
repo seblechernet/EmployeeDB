@@ -5,26 +5,34 @@
     <title>Title</title>
 </head>
 <body>
-
+<script>
+    window.onload = function() {
+        populatedSelect();
+    }
+</script>
 <div class="container">
 
     <div class="form-group">
         <form>
             <input type="text" placeholder="Employee Name" id="empname">
             <input type="text" placeholder="Job Title" id="jobtitle">
-            <div class="form-group">
-            <select name="myselect" id="myselect" class="custom-select form-control">
+
+        </form>
+
+            <select  id="mySelect" class="custom-select form-control">
 
             </select>
-            </div>
-            <input type="text" placeholder="Department Name" id="dep">
-            <button type="submit" onclick="addEmployee()" class="btn btn-primary">SAVE</button>
-        </form>
+
+
+        <button type="submit" onclick="addEmployee()" class="btn btn-primary">SAVE</button>
+
+
     </div>
 
 </div>
-<div id="mydiv"></div>
 
-<form></form>
+
+<script src="../js/json.js"></script>
+<script src="../js/listdepartments.js"></script>
 </body>
 </html>
